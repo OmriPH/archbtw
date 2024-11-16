@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/archbtw.client.iml" filepath="$PROJECT_DIR$/.idea/modules/archbtw.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/archbtw.main.iml" filepath="$PROJECT_DIR$/.idea/modules/archbtw.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/archbtw.test.iml" filepath="$PROJECT_DIR$/.idea/modules/archbtw.test.iml" />
+    </modules>
+  </component>
+</project>

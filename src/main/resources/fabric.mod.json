@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "archbtw",
+  "version": "${version}",
+  "name": "archbtw",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/archbtw/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.omrih.archbtw.client.ArchbtwClient"
+    ],
+    "main": [
+      "me.omrih.archbtw.Archbtw"
+    ]
+  },
+  "mixins": [
+    "archbtw.mixins.json",
+    {
+      "config": "archbtw.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
