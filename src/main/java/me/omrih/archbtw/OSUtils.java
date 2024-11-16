@@ -8,8 +8,6 @@ import java.nio.file.Path;
 
 public class OSUtils {
 
-    private static final String LSB_REMOVAL_PATTERN = "Description:\t"; // we don't use lsb_release, because most distros either a) don't have it, or b) allow /etc/os-release to be accessed.
-
     public static boolean IS_UNIX_LIKE = SystemUtils.IS_OS_LINUX || SystemUtils.IS_OS_UNIX || SystemUtils.IS_OS_SOLARIS || SystemUtils.IS_OS_FREE_BSD || SystemUtils.IS_OS_NET_BSD || SystemUtils.IS_OS_OPEN_BSD;
 
     //fetch distribution here.
