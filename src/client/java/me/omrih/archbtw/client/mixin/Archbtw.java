@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class Archbtw {
     @Inject(method = "onChatMessage", at = @At("HEAD"))
     public void messageListener(ChatMessageS2CPacket packet, CallbackInfo ci) {
-        if (packet.body().content().toLowerCase().contains("Windows".toLowerCase()) || packet.body().content().toLowerCase().contains("OS".toLowerCase())) { // if anyone mentions OS'es...
+        if (packet.body().content().toLowerCase().contains("Windows".toLowerCase()) || packet.body().content().toLowerCase().contains("Linux".toLowerCase()) || packet.body().content().toLowerCase().contains("Operating System".toLowerCase()) || packet.body().content().toLowerCase().contains("OS".toLowerCase())) { // if anyone mentions OS'es...
             flexOS(); // flex your superior operating system.
         }
     }
