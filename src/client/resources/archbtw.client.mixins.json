@@ -4,7 +4,6 @@
   "package": "me.omrih.archbtw.client.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "Archbtw"
   ],
   "injectors": {
     "defaultRequire": 1
